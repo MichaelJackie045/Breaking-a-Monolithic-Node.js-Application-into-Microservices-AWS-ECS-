@@ -1,0 +1,15 @@
+{
+  "users": [
+    { "id": 1, "name": "Ava" },
+    { "id": 2, "name": "Noah" },
+    { "id": 3, "name": "Mia" }
+  ],
+  "threads": [
+    { "id": 1, "title": "Welcome to the board", "userId": 1 },
+    { "id": 2, "title": "AWS ECS tips", "userId": 2 }
+  ],
+  "posts": [
+    { "id": 1, "threadId": 1, "userId": 2, "message": "Hello everyone!" },
+    { "id": 2, "threadId": 2, "userId": 3, "message": "Use ALB path routing for services." }
+  ]
+}
